@@ -586,7 +586,7 @@ body.dark-theme{
 
 /* Show Scroll Up*/
 .show-scroll{
-    bottom: 1.875rem;
+    bottom: 1.25rem;
 }
 
 /* ----------------| Breakpoints |--------------- */
@@ -603,14 +603,6 @@ body.dark-theme{
     .container{
         margin-left: 1rem;
         margin-right: 1rem;
-    }
-
-    .scrollup{
-        right: 1rem;
-    }
-
-    .nav__menu{
-        width: 90%;
     }
 
     .home__data-h1{

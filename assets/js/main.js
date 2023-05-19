@@ -130,7 +130,6 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.home__data, .services__img, .home__imgs, .why__img, .questions__accordion, .footer__container`)
-sr.reveal(`.home__images`, {delay: 600, origin: 'bottom'})
+sr.reveal(`.home__images, .services__data, .why__data`, {delay: 600, origin: 'bottom'})
 sr.reveal(`.how-it-works__step, .prices__card`, {interval: 100})
 sr.reveal(`.home__data, .work__data, .work__icon`, {origin: 'left'})
-sr.reveal(`.services__data, .why__data`, {origin: 'right'})
