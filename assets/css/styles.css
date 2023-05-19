@@ -387,6 +387,7 @@ body.dark-theme{
     display: flex;
     flex-direction: column;
     justify-items: center;
+    align-items: center;
     row-gap: 3.125rem;
     column-gap: 1.5rem;
 }
@@ -602,6 +603,10 @@ body.dark-theme{
     .container{
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+
+    .scrollup{
+        right: 1rem;
     }
 
     .nav__menu{
