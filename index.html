@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----------------| Normalize |--------------->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <!----------------| Favicon |--------------->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!----------------| Icons - RemixIcon |--------------->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!----------------| Css |--------------->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Servilimd - Servicios Domésticos</title>
+
+    <meta name="author" content="Renso Bautista">
+    <meta name="keywords" content="doméstica, limpieza, casa, servicio, limpio">
+    <meta name="description" content="Servilimd se hace cargo de las tareas del hogar permitiéndote que disfrutes de tu tiempo libre. Agenda con nosotros siente la tranquilidad y flexibilidad de confiar en Servilimd.">
+    <meta name="copyright" content="Copyright © Renso Bautista">
+    <meta name="robots" content="index">
+</head>
+<body>
+    <!----------------| Header |--------------->
+    <header class="header" id="header">
+        <div class="nav container">
+            <a href="#home" class="nav__logo">
+                Servilimd
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            Servicios
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#how" class="nav__link">
+                            ¿Cómo funciona?
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#prices" class="nav__link">
+                            Precios
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#profiles" class="nav__link">
+                            Perfiles
+                        </a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="https://wa.me/593967444162?text=Hola quiero mas información de Servilimd" class="nav__link nav__link--contact" target="_blank" aria-label="Contactar" rel="noopener noreferrer">
+                            Contactar
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__icons">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+
+            <a href="https://wa.me/593967444162?text=Hola quiero mas información de Servilimd" class="button nav__botton" target="_blank" aria-label="Contactar" rel="noopener noreferrer">
+                Contactar
+            </a>
+        </div>
+    </header>
+
+    <!----------------| Main |--------------->
+    <main>
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <p class="home__data-border">#1 EN LIMPIEZA</p>
+                    <h1 class="home__data-h1">Servicios de <br> Limpieza Doméstica</h1>
+                    <p class="home__data-text">Servilimd se hace cargo de las tareas del hogar permitiéndote que disfrutes de tu tiempo libre. Agenda con nosotros siente la tranquilidad y flexibilidad de confiar en Servilimd.</p>
+                    
+                    <div class="home__bottons">
+                        <a href="https://wa.me/593967444162?text=Quiero reservar una limpieza (especifique hora, lugar y numero de horas)" class="button" target="_blank">
+                            <i class="ri-calendar-2-line"></i>
+                            Reservar Servicio
+                        </a>
+                        <a href="https://wa.me/593967444162?text=Quiero hablar con un asesor" class="button--border" target="_blank">
+                            <i class="ri-headphone-line"></i>
+                            Contactar Asesor
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <p class="home__social-text">Redes Sociales:</p>
+                        <div class="home__social-items">
+                            <a href="https://www.instagram.com/servilimd/" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://www.facebook.com/servilimd" target="_blank" aria-label="Facebook" rel="noopener noreferrer">
+                                <i class="ri-facebook-circle-line"></i>
+                            </a>
+                            <a href="#" target="_blank" aria-label="WhatsApp" rel="noopener noreferrer">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__imgs">
+                    <a href="#" class="home__citys" target="_blank" aria-label="Ciudades" rel="noopener noreferrer">
+                        <i class="ri-map-pin-2-line"></i>
+                        <p>Ciudades</p>
+                    </a>
+
+                    <picture>
+                        <source srcset="assets/img/home.avif" type="image/avif">
+                        <source srcset="assets/img/home.webp" type="image/webp">
+                        <img loading="lazy" src="assets/img/home.png" alt="Imagen de por qué elegirnos" aria-hidden="true">
+                    </picture>
+
+                    <div class="home__information">
+                        <div>
+                            <p class="home__information-number">25+</p>
+                            <p class="home__information-text">Perfiles</p>
+                        </div>
+                        <div>
+                            <p class="home__information-number">10+</p>
+                            <p class="home__information-text">Ciudades</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <div class="services__container container grid">
+                <picture class="services__img">
+                    <source srcset="assets/img/services.avif" type="image/avif">
+                    <source srcset="assets/img/services.webp" type="image/webp">
+                    <img loading="lazy" src="assets/img/services.png" alt="Imagen de servicios" aria-hidden="true">
+                </picture>
+
+                <div class="services__data">
+                    <h2>Nuestros Servicios</h2>
+                    <p>Sabemos que el tiempo es oro, y que el tuyo vale mucho más. queremos que lo aproveches y no te preocupes más por las tareas del hogar. <br> <strong>¡Para eso estamos nosotros!</strong></p>
+
+                    <div class="services__items">
+                        <div class="services__item">
+                            <div class="services__item-icon">
+                                <i class="ri-home-5-line"></i>
+                            </div>
+
+                            <div class="services__item-data">
+                                <h3>Limpieza de casas</h3>
+                                <p>Limpieza integral de habitaciones y zonas comunes del hogar.</p>
+                            </div>
+                        </div>
+
+                        <div class="services__item">
+                            <div class="services__item-icon">
+                                <i class="ri-building-4-line"></i>
+                            </div>
+
+                            <div class="services__item-data">
+                                <h3>Limpieza de oficinas y negocios</h3>
+                                <p>Limpieza de local comercial y oficina.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works section" id="how">
+            <div class="how-it-works__container container grid">
+                <h2 class="how-it-works__title">¿Cómo Funciona?</h2>
+
+                <div class="how-it-works__steps">
+                    <div class="how-it-works__step">
+                        <div class="how-it-works__icon">
+                            <i class="ri-bell-line"></i>
+                        </div>
+                        <h3 class="how-it-works__subtitle">1. Reservar</h3>
+                        <p class="how-it-works__text">Selecciona la fecha, hora, profesional del hogar, duración del servicio.</p>
+                    </div>
+
+                    <div class="how-it-works__step">
+                        <div class="how-it-works__icon how-it-works__icon--line">
+                            <i class="ri-bank-card-line"></i>
+                        </div>
+                        <h3 class="how-it-works__subtitle">2. Pagar</h3>
+                        <p class="how-it-works__text">Selecciona la fecha, hora, profesional del hogar, duración del servicio.</p>
+                    </div>
+
+                    <div class="how-it-works__step">
+                        <div class="how-it-works__icon">
+                            <i class="ri-hand-sanitizer-line"></i>
+                        </div>
+                        <h3 class="how-it-works__subtitle">3. Todo Limpio</h3>
+                        <p class="how-it-works__text">Selecciona la fecha, hora, profesional del hogar, duración del servicio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="prices section" id="prices">
+            <div class="prices__container container grid">
+                <div>
+                    <h2>Precios por Horas</h2>
+                    <p>Tarifas del servicio de lunes a sábado, el máximo de horas que <br> puede contratar son 8</p>
+                </div>
+
+                <div class="prices__cards">
+                    <div class="prices__card">
+                        <h3 class="prices__subtitle">Plan Básico</h3>
+                        <div class="prices__data">
+                            <span class="prices__dollar">$</span>
+                            <p class="prices__number">15</p>
+                            <div class="prices__hours">
+                                <p>por</p>
+                                <p>2 horas</p>
+                            </div>
+                        </div>
+                        <p>Limpieza y Organización</p>
+                    </div>
+
+                    <div class="prices__card prices__card--dark">
+                        <h3 class="prices__subtitle prices__subtitle--white">Plan Recomendado</h3>
+                        <div class="prices__data">
+                            <span class="prices__dollar">$</span>
+                            <p class="prices__number">25</p>
+                            <div class="prices__hours">
+                                <p>por</p>
+                                <p>4 horas</p>
+                            </div>
+                        </div>
+                        <p>Limpieza y Organización</p>
+                    </div>
+
+                    <div class="prices__card">
+                        <h3 class="prices__subtitle">Plan Completo</h3>
+                        <div class="prices__data">
+                            <span class="prices__dollar">$</span>
+                            <p class="prices__number">40</p>
+                            <div class="prices__hours">
+                                <p>por</p>
+                                <p>8 horas</p>
+                            </div>
+                        </div>
+                        <p>Limpieza y Organización</p>
+                    </div>
+                </div>
+
+                <a href="#" class="price__discounts" target="_blank" aria-label="Revisar nuestros descuentos" rel="noopener noreferrer">
+                    <i class="ri-calendar-2-line"></i>
+                    Revisa nuestros decuentos
+                </a>
+            </div>
+        </section>
+
+        <section class="work section">
+            <div class="work__container container grid">
+                <div class="work__data">
+                    <h2>Trabaja con Nosotros</h2>
+                    <p>Si es de tu interés llegar a trabajar con nosotros no dudes y consulta de que manera puedes formar parte de nuestra familia.</p>
+                </div>
+
+                <a href="#" class="work__icon button--white" target="_blank" aria-label="Ir a la pagina de registro para trabajar con nosotros" rel="noopener noreferrer">
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="why section">
+            <div class="why__container container grid">
+                <picture class="why__img">
+                    <source srcset="assets/img/por-que-elegirnos.avif" type="image/avif">
+                    <source srcset="assets/img/por-que-elegirnos.webp" type="image/webp">
+                    <img loading="lazy" src="assets/img/por-que-elegirnos.jpg" alt="Imagen de por qué elegirnos" aria-hidden="true">
+                </picture>
+
+                <div class="why__data">
+                    <h2>¿Por qué elegirnos?</h2>
+                    <p>Somos una empresa de servicios de limpieza profesional. Nuestra misión es atender los hogares y negocios. Atendemos las necesidades particulares de cada cliente.</p>
+
+                    <div class="why__items">
+                        <div class="why__item">
+                            <div class="why__item-icon">
+                                <i class="ri-award-line"></i>
+                            </div>
+
+                            <div class="why__item-data">
+                                <h3>Personal experimentado</h3>
+                                <p>Contamos con un equipo calificado que cuenta años de experiencia.</p>
+                            </div>
+                        </div>
+
+                        <div class="why__item">
+                            <div class="why__item-icon">
+                                <i class="ri-draft-line"></i>
+                            </div>
+
+                            <div class="why__item-data">
+                                <h3>Compromiso</h3>
+                                <p>Personal comprometido para lograr y obtener los resultados que el cliente espera.</p>
+                            </div>
+                        </div>
+
+                        <div class="why__item">
+                            <div class="why__item-icon">
+                                <i class="ri-coins-line"></i>
+                            </div>
+
+                            <div class="why__item-data">
+                                <h3>Precio competitivo</h3>
+                                <p>Nuestros precios se adaptan a las necesidades de los clientes.</p>
+                            </div>
+                        </div>
+
+                        <div class="why__item">
+                            <div class="why__item-icon">
+                                <i class="ri-hand-heart-line"></i>
+                            </div>
+
+                            <div class="why__item-data">
+                                <h3>Oficio con amor</h3>
+                                <p>Escogemos las mejores trabajadoras domésticas, que amen realizar las tareas del hogar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions section">
+            <div class="questions__container container grid">
+                <h2 class="questions__title">Preguntas Frecuentes</h2>
+
+                <div class="questions__accordion">
+                    <div class="questions__accordion-item">
+                        <header class="questions__accordion-header">
+                            <h3 class="questions__accordion-subtitle">¿Cómo puede reservar los servicios?</h3>
+                            <i class="ri-arrow-down-s-line questions__accordion-close"></i>
+                        </header>
+
+                        <div class="questions__accordion-description">
+                            <p>Al momento de querer reservar los servicios puede revisar los precios, conocer los perfiles del personal y solicitar los servicios por WhatsApp.</p>
+                        </div>
+                    </div>
+
+                    <div class="questions__accordion-item">
+                        <header class="questions__accordion-header">
+                            <h3 class="questions__accordion-subtitle">¿Cuántas horas puedo contratar?</h3>
+                            <i class="ri-arrow-down-s-line questions__accordion-close"></i>
+                        </header>
+
+                        <div class="questions__accordion-description">
+                            <p>Puede contratar de 2 horas hasta 8 horas por día, también puede cotizar horas por semana o por mes.</p>
+                        </div>
+                    </div>
+
+                    <div class="questions__accordion-item">
+                        <header class="questions__accordion-header">
+                            <h3 class="questions__accordion-subtitle">¿Puedo elegir un perfil en especifico?</h3>
+                            <i class="ri-arrow-down-s-line questions__accordion-close"></i>
+                        </header>
+
+                        <div class="questions__accordion-description">
+                            <p>Puede elegir el perfil de su preferencia, tenemos perfiles con varios años de experiencia.</p>
+                        </div>
+                    </div>
+
+                    <div class="questions__accordion-item">
+                        <header class="questions__accordion-header">
+                            <h3 class="questions__accordion-subtitle">¿Cómo puedo trabajar con la empresa?</h3>
+                            <i class="ri-arrow-down-s-line questions__accordion-close"></i>
+                        </header>
+
+                        <div class="questions__accordion-description">
+                            <p>Para poder trabajar con nosotros tiene que llenar un formulario para luego contactarte y explicarle el proceso de selección.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <div class="footer__data">
+                    <div>
+                        <img src="assets/img/logo-dark.webp" alt="Logo Footer" width="240" height="50">
+                        <p class="footer__data-text">Con cada que contratas apoyas al desarrollo de la economía local. Generamos trabajo para quienes lo necesitan.</p>
+                    </div>
+    
+                    <div class="footer__social">
+                        <p class="footer__social-text">Conócenos en nuestras redes sociales:</p>
+                        <div class="footer__social-items">
+                            <a href="https://www.instagram.com/servilimd/" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://www.facebook.com/servilimd" target="_blank" aria-label="Facebook" rel="noopener noreferrer">
+                                <i class="ri-facebook-circle-line"></i>
+                            </a>
+                            <a href="#" target="_blank" aria-label="WhatsApp" rel="noopener noreferrer">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <ul class="footer__nav">
+                    <li class="footer__item"><a href="#how-it-works">¿Cómo funciona?</a></li>
+                    <li class="footer__item"><a href="#prices">Precios</a></li>
+                    <li class="footer__item"><a href="#profiles">Perfiles</a></li>
+                    <li class="footer__item"><a href="#work">Trabaja con nosotros</a></li>
+                    <li class="footer__item"><a href="https://wa.me/593967444162?text=Hola quiero mas información de Servilimd">Contacto</a></li>
+                </ul>
+    
+                <ul class="footer__nav-services">
+                    <li class="footer__item"><a href="#">Servicios</a></li>
+                    <li>Limpieza de casas</li>
+                    <li>Limpieza de oficinas y negocios</li>
+                </ul>
+            </div>
+    
+            <form class="footer__subscribe" id="footer-subscribe">
+                <p>Entérate de todos los descuentos y novedades</p>
+                <div class="footer__action">
+                    <input type="email" name="mail" id="mail" class="footer__action-input" id="footer-input">
+                    <button type="submit" class="footer__action-button button--white">Suscríbete</button>
+                </div>
+            </form>
+    
+            <div class="footer__info">
+                <span class="footer__copy">
+                    2023 Copyright © Todos los derechos reservados. Servilimd para el hogar y negocios 💚
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!----------------| Scroll Up |--------------->
+    <a href="#" id="scroll-up" class="scrollup" aria-label="Subir al inicio de la pagina">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!----------------| Scrollreveal |--------------->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!----------------| Main Js |--------------->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
